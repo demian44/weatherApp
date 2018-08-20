@@ -1,0 +1,11 @@
+.weatherDataCont {
+    background: rgb(122, 122, 224);
+}
+
+.weatherExtraInfoCont {
+    background: rgb(122, 224, 127);
+}
+
+.weatherTemperatureCont {
+    background: rgb(224, 101, 101);
+}
