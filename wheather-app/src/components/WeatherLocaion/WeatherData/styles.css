@@ -1,11 +1,45 @@
 .weatherDataCont {
-    background: rgb(122, 122, 224);
-}
-
-.weatherExtraInfoCont {
-    background: rgb(122, 224, 127);
+    /* background: rgb(122, 122, 224); */
+    background: rgba(200,200,200,0.5);
+    width: 400px; 
+    height: 100px; /* El alto total */
+    line-height: 100px; /* lo que ocupa cada linea */
+    border-radius: 5px;
 }
 
 .weatherTemperatureCont {
-    background: rgb(224, 101, 101);
+    /* background: rgb(224, 101, 101); */
+    width: 60%;
+    display: inline-block;
+}
+
+.weatherExtraInfoCont {
+    /* background: rgb(122, 224, 127); */
+    width: 40%;
+    display: inline-block;
+    line-height: 25px;
+    text-align-last: left;
+}
+
+.extraInfoText {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(54, 54, 136);
+}
+
+.temperature {
+   font-size: 35px;
+   font-weight: bold;
+   padding-left: 20px;
+   color: #333;
+}
+.temperatureType {
+    font-weight: bold;
+   color: #666;
+}
+
+.wIcon {
+color:rgb(0, 94, 110);
+margin: 10px;
 }

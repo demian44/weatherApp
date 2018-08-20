@@ -1,18 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
+import './styles.css';
 
-const Location = ({ city, country }) => (
+const Location = ({city}) => (
   //destructuring
-  <div>
+  <div className="locationCont">
     <h1>
-      {city}, {country}
+      {city}
     </h1>
   </div>
 );
 
 Location.propTypes = {
   city: PropTypes.string.isRequired,
-  country: PropTypes.string.isRequired,
+  country: PropTypes.string,
 }
 
 export default Location;

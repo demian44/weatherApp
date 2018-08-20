@@ -3,15 +3,15 @@ import PropTypes from 'prop-types'
 import './styles.css';
 
 
-const WeatherExtraInfo = ({ humidiy, wind }) => (
+const WeatherExtraInfo = ({ humidity, wind }) => (
     <div className='weatherExtraInfoCont'>
-        <span>{`${humidiy} % | `}</span>
-        <span>{`${wind} wind`}</span>
+        <span className='extraInfoText'>{`Humedad: ${humidity}%`}</span>
+        <span className='extraInfoText'>{`Vientos: ${wind}`}</span>
     </div>
 );
 
 WeatherExtraInfo.prototype = {
-    humidiy: PropTypes.number.isRequired,
+    humidity: PropTypes.number.isRequired,
     wind: PropTypes.string.isRequired
 };
 
